@@ -1,0 +1,35 @@
+[
+  {
+    "a": "Alpha-beta minimax (depth 1 turns, beam 6)",
+    "b": "Greedy (one-stone lookahead)",
+    "games": 20,
+    "a_wins": 10,
+    "b_wins": 10,
+    "draws": 0,
+    "avg_stones_per_game": 50.5,
+    "a_ms_per_stone": 19.5,
+    "b_ms_per_stone": 19.1
+  },
+  {
+    "a": "Alpha-beta minimax (depth 2 turns, beam 6)",
+    "b": "Greedy (one-stone lookahead)",
+    "games": 20,
+    "a_wins": 20,
+    "b_wins": 0,
+    "draws": 0,
+    "avg_stones_per_game": 94.0,
+    "a_ms_per_stone": 417.1,
+    "b_ms_per_stone": 17.9
+  },
+  {
+    "a": "Alpha-beta minimax (depth 2 turns, beam 6)",
+    "b": "Alpha-beta minimax (depth 1 turns, beam 6)",
+    "games": 20,
+    "a_wins": 20,
+    "b_wins": 0,
+    "draws": 0,
+    "avg_stones_per_game": 128.4,
+    "a_ms_per_stone": 412.2,
+    "b_ms_per_stone": 19.7
+  }
+]
