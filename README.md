@@ -1,5 +1,7 @@
 # Connect-6 AI (Alpha-Beta Search)
 
+[![tests](https://github.com/ZIADAYMAN81/connect6-ai/actions/workflows/tests.yml/badge.svg)](https://github.com/ZIADAYMAN81/connect6-ai/actions/workflows/tests.yml)
+
 > Artificial Intelligence coursework, The British University in Egypt, 2024. Author: Ziad Ayman.
 
 A playable **Connect-6** game on a 19 × 19 board against a computer opponent that uses **alpha-beta minimax search**. The game follows the official two-stones-per-turn rule and is played with gravity, as in Connect Four. The AI plans whole two-stone turns, and an automated benchmark measures how search depth changes its strength.
@@ -53,3 +55,6 @@ tests/             # rules, win detection, turn order, tactics, legality
 
 ## Tech stack
 Python · NumPy · pygame · pytest
+
+## License
+MIT, see [LICENSE](LICENSE).
